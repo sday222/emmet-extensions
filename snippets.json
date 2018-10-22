@@ -1,0 +1,18 @@
+{
+  "variables": {
+    "lang": "en",
+    "locale": "en-US",
+    "charset": "UTF-8",
+    "indentation": "\t",
+		"newline": "\n"
+  },
+
+  "html": {
+    "filters": "html",
+		"profile": "html",
+    "snippets": {
+      "cc:mso": "<!--[if (gte mso 9)\\|(IE)]>\n\t${child}|\n<![endif]-->",
+      "cc:ol2000": "<!--[if mso 9]>\n\t<style type=\"text/css\">\n\t|${child}\n</style>\n<![endif]-->"
+    }
+  }
+}
